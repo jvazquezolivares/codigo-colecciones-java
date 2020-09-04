@@ -1,7 +1,5 @@
 package curso.colecciones.listas.inventarios;
 
-import java.util.HashSet;
-import java.util.LinkedHashSet;
 import java.util.Scanner;
 
 /**
@@ -61,8 +59,6 @@ public class InventoryApp {
     
     private void newProduct(){
         System.out.println("ID del producto: ");
-        new LinkedHashSet<String>();
-        new LinkedHashSet<>();
         int ID = sc.nextInt();
         
         System.out.println("Nombre del producto: ");
